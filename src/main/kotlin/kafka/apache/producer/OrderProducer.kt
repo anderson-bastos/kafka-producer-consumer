@@ -29,7 +29,7 @@ class OrderProducer(
     @GetMapping("/send")
     fun send() : ResponseEntity<String> {
         val messageKey = UUID.randomUUID()
-        var lf : ListenableFuture<SendResult<String, String>> = kafkaTemplate?.send(orderTopic, messageKey.toString())
+        var lf : ListenableFuture<SendResult<String, String>> = kafkaTemplate.send(orderTopic, messageKey.toString())
         var sendResult: SendResult<String, String> = lf.get()
         logger.info(sendResult.producerRecord.value() + " sent topic")
         return ResponseEntity.ok(sendResult.producerRecord.value() + " sent topic")
