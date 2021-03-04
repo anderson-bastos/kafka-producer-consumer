@@ -2,9 +2,10 @@
 
 ## Pré requisitos
 
-- Graadle 3+
+- Graadle 6.8.2+
 - Java 11+
-- Docker 18.02.0+
+- Docker 19.03.+
+- Docker Composer 1.25.5+
 
 ## Preparando ambiente
 - Execute o `docker build --build-arg JAR_FILE=build/libs/\*.jar -t kafka/producer-consumer .
@@ -17,12 +18,13 @@
 
 ## Executando
 
-Para testar, pode ser utilizado o seguinte comando: `./send-order.sh "{\"identifier\": \"12343\",\"customer\": \"Customer X\", \"value\": 1500}"`, onde será inserido o pedido no tópico do Kafka, via a aplicação `producer`, e será cosumido pela aplicação `consumer`, como no log abaixo:
+Para testar, pode ser utilizado o seguinte comando: `"""`, onde será inserido o pedido no tópico do Kafka, via a aplicação `producer`, e será cosumido pela aplicação `consumer`, como no log abaixo:
 ````
-2019-05-13 19:41:45.033  INFO 2103 --- [ntainer#0-0-C-1] b.c.emmanuelneri.consumer.OrderConsumer  : Order: Order(identifier=12343, customer=Customer X, value=1500)
+...
 ````
 
 ## Referências
 
 https://emmanuelneri.com.br/2019/06/04/kafka-no-spring-boot/
+
 https://dzone.com/articles/producer-consumer-with-kafka-and-kotlin
