@@ -83,12 +83,82 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/kotlin/kafka/apache/consumer/UserConsumer.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/kotlin/kafka/apache/domain/Payload.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/kotlin/kafka/apache/producer/OrderProducer.kt">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/kotlin/kafka/apache/producer/Payload.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/kotlin/kafka/apache/producer/UserController.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/kotlin/kafka/apache/producer/UserProducer.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/kotlin/kafka/apache/AbstractControllerIT.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/kotlin/kafka/apache/DebeziumContainer.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/kotlin/kafka/apache/DebeziumContainerTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/kotlin/kafka/apache/KafkaContainer.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/kotlin/kafka/apache/KafkaContainerIT.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/kotlin/kafka/apache/KafkaContainerTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/kotlin/kafka/apache/producer/UserProducerIT.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/resources/application.yml">
           <value>
             <set />
           </value>
